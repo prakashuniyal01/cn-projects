@@ -1,0 +1,35 @@
+/* form input css */
+.forminput{
+    width: 55%;
+    margin: 0 2%;
+    padding: 8px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(71, 16, 16);
+}
+.forminput[type=text] {
+    background-color: #d2dad7;
+    color: rgb(0, 0, 0);
+  }
+
+/* buttons inside the form */
+.formBtn{
+    width: 100px;
+    height: 35px;
+    margin: 0 1%;
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 4px;
+    font-weight: 800;
+    font-family: Arial;
+}
+
+/* clear button */
+.clearBtn{
+    background-color: #FF1300;
+}
+/* create button */
+.addBtn{
+    background-color: #0077FF;
+}

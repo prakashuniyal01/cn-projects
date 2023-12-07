@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* common style for all the heading tags  */
+h1{
+  color: #071315;
+}
+
+h1:hover{
+  color:#649dab;
+}
+
+/* removing border from inputbox */
+input:focus{
+  outline: none;
+}
+
+/* black background */
+.lightbox-overlay {
+  margin-top: 500px;
+  position: fixed;
+  top: 110;
+  width: 60%;
+  height: 60%;
+  background: radial-gradient(#e66465, #9198e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+
+}
+
+/* container */
+.lightbox-container {
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* close button of lightbox to hide image */
+.close-button{
+  position: absolute;
+  /* top: 10px;
+  padding: 5px 10px; */
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  left: 46%;
+}
+
+/* image inside the lightbox */
+.lightbox-image {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+}
